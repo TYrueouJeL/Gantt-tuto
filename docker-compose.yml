@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    image: tyrueoujel/gantt:latest
+    container_name: gantt
+    ports:
+      - "8083:80"
+    restart: always
